@@ -1,0 +1,20 @@
+{
+  "name": "restfullnode-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "rohan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "uuid": "^9.0.0"
+  }
+}
